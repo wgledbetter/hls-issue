@@ -10,6 +10,7 @@ build-type:     Simple
 
 library
   exposed-modules:
+      HLSIssue
       SomeCode
   other-modules:
       Paths_hls_issue
