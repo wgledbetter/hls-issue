@@ -1,0 +1,13 @@
+name: hls-issue
+
+dependencies:
+  - base
+
+library:
+  source-dirs: src
+
+executables:
+  fake:
+    main: Main.hs
+    dependencies:
+      - hls-issue

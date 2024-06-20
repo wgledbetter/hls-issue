@@ -1,0 +1,29 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.36.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           hls-issue
+version:        0.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      SomeCode
+  other-modules:
+      Paths_hls_issue
+  hs-source-dirs:
+      src
+  build-depends:
+      base
+  default-language: Haskell2010
+
+executable fake
+  main-is: Main.hs
+  other-modules:
+      Paths_hls_issue
+  build-depends:
+      base
+    , hls-issue
+  default-language: Haskell2010
